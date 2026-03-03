@@ -1,0 +1,21 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "C:\\Users\\lin\\esp\\v5.5.2\\esp-idf",
+  "idf.pythonInstallPath": "d:\\esp\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.toolsPathWin": "d:\\esp\\.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "files.associations": {
+    "wifi_manage.h": "c",
+    "nvs.h": "c",
+    "string": "c",
+    "format": "c"
+  },
+  "idf.flashType": "UART",
+  "idf.portWin": "COM6",
+  "idf.currentSetup": "C:\\Users\\lin\\esp\\v5.5.2\\esp-idf"
+}

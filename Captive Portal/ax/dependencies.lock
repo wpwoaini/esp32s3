@@ -1,0 +1,64 @@
+dependencies:
+  espressif/mdns:
+    component_hash: 043f989435fd88f771c70507bfde854380c259a8fec8c0d60bcfd8714f16960e
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com
+      type: service
+    version: 1.10.0
+  idf:
+    source:
+      type: idf
+    version: 5.5.3
+  tuanpmt/esp_bus:
+    component_hash: e78c5ae0f388a278258e4c7ca15b7e6a937e6aca0228ff49686836d2724c4727
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com
+      type: service
+    targets:
+    - esp32
+    - esp32s2
+    - esp32s3
+    - esp32c2
+    - esp32c3
+    - esp32c6
+    - esp32h2
+    version: 1.0.3
+  tuanpmt/esp_wifi_manager:
+    component_hash: 5a3c919c6679dbe8a39f3af8254b722c58d5e3aa6dfa3e8663e6d90eea035ab9
+    dependencies:
+    - name: espressif/mdns
+      registry_url: https://components.espressif.com
+      require: private
+      version: ^1.2
+    - name: idf
+      require: private
+      version: '>=5.0.0'
+    - name: tuanpmt/esp_bus
+      registry_url: https://components.espressif.com
+      require: private
+      version: ^1.0.3
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    targets:
+    - esp32
+    - esp32s2
+    - esp32s3
+    - esp32c3
+    - esp32c6
+    - esp32h2
+    version: 1.1.0
+direct_dependencies:
+- idf
+- tuanpmt/esp_wifi_manager
+manifest_hash: 9e315c12b11f75607c0e4ba4164acdb0839928fa2d984fb5a4f582babb2c00a5
+target: esp32s3
+version: 2.0.0

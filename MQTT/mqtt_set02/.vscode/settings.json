@@ -1,0 +1,40 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "C:\\Users\\lin\\esp\\v5.5.2\\esp-idf",
+  "idf.pythonInstallPath": "d:\\esp\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.toolsPathWin": "d:\\esp\\.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "idf.portWin": "COM3",
+  "idf.flashType": "UART",
+  "files.associations": {
+    "mqtt_client.h": "c",
+    "a_wifi.h": "c",
+    "md.h": "c",
+    "bitset": "c",
+    "set": "c",
+    "format": "c",
+    "onenet_dm.h": "c",
+    "mqtt_al.h": "c",
+    "chrono": "c",
+    "text_encoding": "c",
+    "typeinfo": "c",
+    "numeric": "c",
+    "charconv": "c",
+    "optional": "c",
+    "ratio": "c",
+    "system_error": "c",
+    "array": "c",
+    "functional": "c",
+    "regex": "c",
+    "tuple": "c",
+    "type_traits": "c",
+    "utility": "c",
+    "random": "c",
+    "thread": "c"
+  }
+}

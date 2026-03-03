@@ -1,0 +1,33 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "C:\\Users\\lin\\esp\\v5.5.2\\esp-idf",
+  "idf.pythonInstallPath": "d:\\esp\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.toolsPathWin": "d:\\esp\\.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "idf.portWin": "COM3",
+  "idf.flashType": "UART",
+  "files.associations": {
+    "mqtt_client.h": "c",
+    "cjson.h": "c",
+    "sdkconfig.h": "c",
+    "esp_flash.h": "c",
+    "task.h": "c",
+    "ov7670.h": "c",
+    "string.h": "c",
+    "ov7670_regs.h": "c",
+    "sensor.h": "c",
+    "esp_camera.h": "c",
+    "esp_chip_info.h": "c",
+    "cstdlib": "c",
+    "clk_tree_defs.h": "c",
+    "soc_caps.h": "c",
+    "nvs_flash.h": "c",
+    "esp_netif.h": "c"
+  },
+  "idf.currentSetup": "C:\\Users\\lin\\esp\\v5.5.2\\esp-idf"
+}

@@ -1,0 +1,17 @@
+# 忽略所有层级的 build 文件夹（核心规则）
+**/build/
+
+# 可选：补充忽略 ESP32 编译相关的临时文件（适配你的 ESP32 项目）
+# 编译输出目录
+**/cmake-build-*/
+**/sdkconfig
+**/sdkconfig.old
+# 二进制文件
+*.bin
+*.elf
+*.map
+# 临时文件
+*.o
+*.lo
+*.so
+*.zip
